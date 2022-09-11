@@ -66,7 +66,7 @@ margin: 30px 0px 110px 0px;
 padding-bottom: 45px;
 
 }
-button {
+.button1 {
         border-radius: 6px;
         border: none;
         background-color: #3882F6;
@@ -113,4 +113,75 @@ h1 {
     margin-top: 40px;
     width: 190px;
     height: 200px;
+    margin-bottom: 5px;
 }
+.subtext {
+    color: #2c2d2e;
+    FONT-SIZE: 18PX;
+    margin-bottom: 55px;
+}
+/* PART 3 */
+.part3 {
+    background: #E5E7EB;
+    display: flex;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 400;
+}
+.author {
+    font-weight: 900;
+    font-size: 24px;
+    margin-left: 480px;
+}
+/* PART 4 */
+ .part4 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+h3 {
+    font-size: 24px;
+    padding: 0;
+    margin: 0;
+    margin-right: 245px;
+}
+.lastpara {
+    font-size: 18px;
+}
+.bigbluebox {
+    margin: 100px;
+    background-color:#3882F6;
+    height: 150px;
+    width: 1500px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: row;
+}
+.left2, .right2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+.left2 {
+
+}
+.button2 {
+    background: #3882F6;
+    border: 2px solid white;
+    border-radius: 6px;
+    padding: 9px 35px;
+    font-size: 17px;
+    color: white;
+} 
